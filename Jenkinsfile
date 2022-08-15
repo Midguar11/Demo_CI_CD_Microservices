@@ -4,7 +4,7 @@ pipeline {
         stage('Git Clone'){
             agent any
             steps{
-                git branch: 'master', url: 'https://github.com/Midguar11/pr01_microservice-app-example.git'
+                git branch: 'master', url: 'https://github.com/Midguar11/Demo_CI_CD_Microservices.git'
             }
         }
         
